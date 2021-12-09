@@ -1,4 +1,4 @@
-import requests, pprint, urllib.request, os
+import requests, urllib.request, os
 
 
 class Coub():
@@ -30,4 +30,4 @@ class Coub():
 
 if __name__ == "__main__":
     coub = Coub()
-    coub.download_video("https://coub.com/view/iyd2d", "./coubs/")
+    coub.download_video("https://coub.com/view/2xkael", "./coubs/")
