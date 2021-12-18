@@ -27,7 +27,7 @@ player = mpv.MPV()
 player.fullscreen = True
 player.loop = True
 # Option access, in general these require the core to reinitialize
-player['vo'] = 'gpu'
+# player['vo'] = 'sdl'
 
 
 @player.on_key_press('RIGHT')
