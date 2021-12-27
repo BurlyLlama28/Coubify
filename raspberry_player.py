@@ -36,7 +36,7 @@ def next_video():
 			played_videos += 1
 	except:
 		logger.info("-->Moving to first video-->")
-		player.stop()
+		player.quit()
 		player = mpv.MPV()
 		player.fullscreen = True
 		player.loop = True
