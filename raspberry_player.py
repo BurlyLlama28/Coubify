@@ -40,11 +40,11 @@ def next_video():
 		player = mpv.MPV()
 		player.fullscreen = True
 		player.loop = True
+		player['vo'] = 'sdl'
 		get_videos_to_playlist()
 		player.playlist_shuffle()
 		player.playlist_pos = 0
 		player.wait_until_playing()
-		player['vo'] = 'sdl'
 
 
 
