@@ -44,6 +44,7 @@ def next_video():
 		player.playlist_shuffle()
 		player.playlist_pos = 0
 		player.wait_until_playing()
+		player['vo'] = 'sdl'
 
 
 
